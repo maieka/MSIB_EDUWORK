@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: white;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+a {
+  display: block;
+  padding: 14px;
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+header {
+  background: plum;
+  width: 100%;
+  height: 205px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+  background: white;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  flex-direction: column;
+  justify-content: left;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: left;
+  padding: 20px 45px;
+  margin-top: 25px;
+}
+
+p {
+  text-align: justify;
+  padding: 5px 40px;
+}
+
+aside {
+  background: gainsboro;
+  width: 30%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  background-color: plum;
+  color: black;
+  padding: 1px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+footer p {
+  text-align: center;
+}
